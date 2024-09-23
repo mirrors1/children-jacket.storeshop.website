@@ -7,8 +7,8 @@ document.getElementById('order_form_new').addEventListener('submit', function(e)
     const size = document.getElementById('select').value;
     const name = document.getElementById('name').value;
     const phone = document.getElementById('phone').value;
-    const content = 'Дитяча сорочка з довгим рукавом';
-    const price = '440грн';
+    const content = 'Дитячий пуховик на качиному пуху з капюшоном';
+    const price = '560грн';
     
 
     const text = `Товар: ${content}\nРозмір: ${size}\nІм'я: ${name}\nТелефон: ${phone}\nЦіна: ${price}`;
