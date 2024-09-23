@@ -8,7 +8,7 @@ document.getElementById('order_form_new').addEventListener('submit', function(e)
     const name = document.getElementById('name').value;
     const phone = document.getElementById('phone').value;
     const content = 'Дитячий пуховик на качиному пуху з капюшоном';
-    const price = '560грн';
+    const price = '690грн';
     
 
     const text = `Товар: ${content}\nРозмір: ${size}\nІм'я: ${name}\nТелефон: ${phone}\nЦіна: ${price}`;
